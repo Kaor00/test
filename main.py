@@ -1,5 +1,6 @@
 class Gamer:
     __count = 0
+
     def __init__(self, name):
         self.name = name
         Gamer.__count += 1
@@ -16,3 +17,4 @@ gamer2 = Gamer(input("Enter your name: "))
 print('Game beginner!' if Gamer.amount()==2 else "await second gamer...")
 
 print('@@@@@@@@@@')
+print("this comment from git bash")
