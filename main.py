@@ -17,3 +17,6 @@ print('Game beginner!' if Gamer.amount()==2 else "await second gamer...")
 
 def first_step():
     print("Game started!")
+
+print("+++++++++")
+print("game over")
