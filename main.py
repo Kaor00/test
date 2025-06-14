@@ -14,6 +14,3 @@ class Gamer:
 gamer1 = Gamer(input("Enter your name: "))
 gamer2 = Gamer(input("Enter your name: "))
 print('Game beginner!' if Gamer.amount()==2 else "await second gamer...")
-
-def first_step():
-    print("Game started!")
