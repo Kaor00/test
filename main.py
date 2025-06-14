@@ -21,3 +21,4 @@ def first_step():
 print("+++++++++")
 print("game over")
 
+print("write from git bush")
